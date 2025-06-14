@@ -1,0 +1,48 @@
+{
+    "name": "@lomas/sonarqubemcp",
+    "description": "MCP Server for SonarQube APIs",
+    "version": "1.0.4",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "files": [
+        "dist",
+        "package.json",
+        "package-lock.json",
+        "tsconfig.json"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js",
+            "default": "./dist/index.js"
+        }
+    },
+    "bin": {
+        "sonarqubemcp": "./dist/index.js"
+    },
+    "author": "Akash Lomas <akash.lomas@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc && chmod 775 dist/index.js",
+        "start": "node dist/index.js",
+        "dev": "npx tsx src/index.ts"
+    },
+    "dependencies": {
+        "@lomas/sonarqubemcp": "^1.0.2",
+        "@modelcontextprotocol/sdk": "1.12.0",
+        "axios": "^1.6.0",
+        "express": "^4.19.2",
+        "zod": "^3.22.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.14.10",
+        "ts-node": "^10.0.0",
+        "tsx": "^4.19.4",
+        "typescript": "^5.0.0"
+    }
+}
