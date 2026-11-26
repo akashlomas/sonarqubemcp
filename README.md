@@ -3,9 +3,10 @@
 [![Stars](https://img.shields.io/badge/stars-☆_0-0077B5?style=flat-square&logo=github)](https://github.com/akashlomas/sonarqubemcp/stargazers)
 [![Forks](https://img.shields.io/badge/forks-0-0077B5?style=flat-square&logo=git)](https://github.com/akashlomas/sonarqubemcp/network/members)
 [![Watchers](https://img.shields.io/badge/watchers-👀_0-0077B5?style=flat-square)](https://github.com/akashlomas/sonarqubemcp/watchers)
-[![Sonarqubemcp MCP server](https://mcprush.com/badge/sonarqubemcp/card.svg)](https://mcprush.com/to/sonarqubemcp?ref=badge)
 
 # SonarQube MCP Server
+
+[![Sonarqubemcp MCP server](https://mcprush.com/badge/sonarqubemcp/card.svg)](https://mcprush.com/to/sonarqubemcp?ref=badge)
 
 A Model Context Protocol (MCP) server for interacting with SonarQube APIs, providing tools for authentication, project management, and metrics retrieval.
 
